@@ -19,7 +19,7 @@ phases:
         - git fetch
         - git branch -a
         - git remote -v
-        - git checkout origin/master
+        - git checkout -f origin/master
         - git submodule init
         - git submodule update --recursive
   build:
