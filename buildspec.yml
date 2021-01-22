@@ -17,7 +17,8 @@ phases:
         - git init
         - git remote add origin https://github.com/shirinbhambhani/Ghost
         - git fetch
-        - git checkout -t origin/master
+        - git branch -a
+        - git checkout master
         - git submodule init
         - git submodule update --recursive
   build:
